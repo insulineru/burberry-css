@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/burberry-css/static/css/main.685dea8f.chunk.css",
+    "main.js": "/burberry-css/static/js/main.6d9a6093.chunk.js",
+    "main.js.map": "/burberry-css/static/js/main.6d9a6093.chunk.js.map",
+    "runtime-main.js": "/burberry-css/static/js/runtime-main.6994a2ce.js",
+    "runtime-main.js.map": "/burberry-css/static/js/runtime-main.6994a2ce.js.map",
+    "static/js/2.4af5020b.chunk.js": "/burberry-css/static/js/2.4af5020b.chunk.js",
+    "static/js/2.4af5020b.chunk.js.map": "/burberry-css/static/js/2.4af5020b.chunk.js.map",
+    "index.html": "/burberry-css/index.html",
+    "precache-manifest.8138b02ddca9b92bc26ea281a898d475.js": "/burberry-css/precache-manifest.8138b02ddca9b92bc26ea281a898d475.js",
+    "service-worker.js": "/burberry-css/service-worker.js",
+    "static/css/main.685dea8f.chunk.css.map": "/burberry-css/static/css/main.685dea8f.chunk.css.map",
+    "static/js/2.4af5020b.chunk.js.LICENSE.txt": "/burberry-css/static/js/2.4af5020b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6994a2ce.js",
+    "static/js/2.4af5020b.chunk.js",
+    "static/css/main.685dea8f.chunk.css",
+    "static/js/main.6d9a6093.chunk.js"
+  ]
+}
