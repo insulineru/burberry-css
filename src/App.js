@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 import { ReactComponent as SettingsIcon } from "./settings.svg";
-import Modal from './Modal'
+import Modal from './components/Modal'
 
 function App() {
   const [firstColor, setFirstColor] = useState("rgba(172, 72, 75, 0.5)");
