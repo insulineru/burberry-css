@@ -1,21 +1,30 @@
 /* eslint-disable no-unused-vars */
 
-import React, { useState } from 'react';
-import styled from 'styled-components';
+import React, { useState } from "react";
+import styled from "styled-components";
 
-import { ReactComponent as SettingsIcon } from './settings.svg';
+import { ReactComponent as SettingsIcon } from "./settings.svg";
+import Modal from './Modal'
 
 function App() {
-  const [firstColor, setFirstColor]  = useState('rgba(172, 72, 75, 0.5)');
-  const [secondColor, setSecondColor] = useState('rgba(236, 218, 182, 0)');
-  const [thirdColor, setThirdColor] = useState('rgba(54, 50, 51, 0.5)');
-  const [fourthColor, setFourthColor] = useState('rgba(255, 255, 255, 0.5)');
+  const [firstColor, setFirstColor] = useState("rgba(172, 72, 75, 0.5)");
+  const [secondColor, setSecondColor] = useState("rgba(236, 218, 182, 0)");
+  const [thirdColor, setThirdColor] = useState("rgba(54, 50, 51, 0.5)");
+  const [fourthColor, setFourthColor] = useState("rgba(255, 255, 255, 0.5)");
+
+  const [modalShow, setModalShow] = useState(false);
 
   return (
-    <Background firstColor={firstColor}>
-      <SettingsButton>
+    <Background
+      firstColor={firstColor}
+      secondColor={secondColor}
+      thirdColor={thirdColor}
+      fourthColor={fourthColor}
+    >
+      <SettingsButton onClick={() => setModalShow(!modalShow)}>
         <SettingsIcon width="4rem" height="4rem" />
       </SettingsButton>
+      {modalShow && <Modal onCloseRequest={() => setModalShow(false)} />}
     </Background>
   );
 }
@@ -122,4 +131,5 @@ const SettingsButton = styled.button`
     opacity: .8;
   }
 `;
+
 export default App;
