@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/burberry-css/static/css/main.685dea8f.chunk.css",
-    "main.js": "/burberry-css/static/js/main.6d9a6093.chunk.js",
-    "main.js.map": "/burberry-css/static/js/main.6d9a6093.chunk.js.map",
+    "main.js": "/burberry-css/static/js/main.3935c1e1.chunk.js",
+    "main.js.map": "/burberry-css/static/js/main.3935c1e1.chunk.js.map",
     "runtime-main.js": "/burberry-css/static/js/runtime-main.6994a2ce.js",
     "runtime-main.js.map": "/burberry-css/static/js/runtime-main.6994a2ce.js.map",
-    "static/js/2.4af5020b.chunk.js": "/burberry-css/static/js/2.4af5020b.chunk.js",
-    "static/js/2.4af5020b.chunk.js.map": "/burberry-css/static/js/2.4af5020b.chunk.js.map",
+    "static/js/2.62af8f35.chunk.js": "/burberry-css/static/js/2.62af8f35.chunk.js",
+    "static/js/2.62af8f35.chunk.js.map": "/burberry-css/static/js/2.62af8f35.chunk.js.map",
     "index.html": "/burberry-css/index.html",
-    "precache-manifest.8138b02ddca9b92bc26ea281a898d475.js": "/burberry-css/precache-manifest.8138b02ddca9b92bc26ea281a898d475.js",
+    "precache-manifest.ac926fc33edcb015e1acd57e7517d159.js": "/burberry-css/precache-manifest.ac926fc33edcb015e1acd57e7517d159.js",
     "service-worker.js": "/burberry-css/service-worker.js",
     "static/css/main.685dea8f.chunk.css.map": "/burberry-css/static/css/main.685dea8f.chunk.css.map",
-    "static/js/2.4af5020b.chunk.js.LICENSE.txt": "/burberry-css/static/js/2.4af5020b.chunk.js.LICENSE.txt"
+    "static/js/2.62af8f35.chunk.js.LICENSE.txt": "/burberry-css/static/js/2.62af8f35.chunk.js.LICENSE.txt",
+    "static/media/settings.3ce44195.svg": "/burberry-css/static/media/settings.3ce44195.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.6994a2ce.js",
-    "static/js/2.4af5020b.chunk.js",
+    "static/js/2.62af8f35.chunk.js",
     "static/css/main.685dea8f.chunk.css",
-    "static/js/main.6d9a6093.chunk.js"
+    "static/js/main.3935c1e1.chunk.js"
   ]
 }

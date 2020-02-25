@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/burberry-css/precache-manifest.8138b02ddca9b92bc26ea281a898d475.js"
+  "/burberry-css/precache-manifest.ac926fc33edcb015e1acd57e7517d159.js"
 );
 
 self.addEventListener('message', (event) => {
